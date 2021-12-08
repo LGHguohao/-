@@ -1,0 +1,30 @@
+@media (max-width: 350px) {
+  body {
+    background-color: yellow;
+  }
+}
+body {
+  position: relative;
+  top: 40px;
+}
+nav {
+  position: fixed;
+  top: 0;
+  height: 35px;
+  z-index: 999;
+  background: linear-gradient(50deg,#cff,#fcc);
+  width: 100%;
+  margin-left: 0;
+  padding-top: 10px;
+}
+nav button {
+  margin: auto 10px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+input[type=email]:invalid {
+  border: 2px dashed red;
+}
+form {
+  margin-top: 10px;
+}
